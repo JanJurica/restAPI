@@ -1,5 +1,6 @@
 package com.example.restapi
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -25,6 +26,10 @@ class MainActivity : AppCompatActivity() {
         binding.loginButton.setOnClickListener(View.OnClickListener {
             if (binding.username.text.toString() == "user" && binding.password.text.toString() == "user"){
                 Toast.makeText(this,"Login Successful", Toast.LENGTH_SHORT).show()
+
+                // Otevření nové aktivity po úspěšném přihlášení
+                val intent = Intent(this, MenuActivity::class.java)
+                startActivity(intent)
             } else{
                 Toast.makeText(this,"Login Failed", Toast.LENGTH_SHORT).show()
             }
