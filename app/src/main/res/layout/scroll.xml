@@ -22,7 +22,8 @@
             android:textSize="40sp"
             app:layout_constraintTop_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="16dp" />
+            tools:layout_editor_absoluteX="16dp"/>
+
 
 
         <LinearLayout
