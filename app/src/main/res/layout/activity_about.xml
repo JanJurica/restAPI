@@ -7,12 +7,69 @@
     android:layout_height="match_parent"
     tools:context=".AboutActivity">
 
+    <!-- Nadpis -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About:"
+        android:textSize="24sp"
+        android:layout_below="@id/toolbar"
+        android:fontFamily="@font/poppins_black_italic"
+        android:textColor="@color/levander"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Text pod nadpisem -->
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Flight Radar mobile application which can show flight data about all flight around world. Application also shows wallpapers of planes, map and little information about you own mobile phone."
+        android:textSize="18sp"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewMacAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAC Address: "
+        android:textColor="@color/levander"
+        android:layout_marginTop="250dp"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewIpAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewMacAddress"
+        android:layout_marginTop="0dp"
+        android:text="IP Address: "
+        android:textColor="@color/levander"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewDeviceName"
+        android:layout_below="@id/textViewIpAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device Name: "
+        android:textColor="@color/levander"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"/>
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:title="Radar"
+        app:title="Flight Radar"
         app:titleTextColor="@android:color/white"
         app:navigationIcon="?android:attr/homeAsUpIndicator"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
