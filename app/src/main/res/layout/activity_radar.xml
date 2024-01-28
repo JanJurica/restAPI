@@ -14,8 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:title="Radar"
-        app:titleTextColor="@android:color/white"
+        app:title="Weather"
+        app:titleTextColor="@android:color/holo_blue_dark"
         app:navigationIcon="?android:attr/homeAsUpIndicator"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
@@ -23,16 +23,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/clothTitle"
-        android:text="Radar"
+        android:text="Weather"
         android:textSize="36sp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="@font/poppins_black_italic"
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"/>
-    <ImageView
-        android:layout_width="500dp"
-        android:layout_height="500dp"
-        android:id="@+id/clothImage"
-        android:layout_below="@id/clothTitle"
-        android:src="@drawable/radar"/>
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Enter city name: " />
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/city"
+        android:layout_marginTop="-47dp"
+        android:text="Confirm"
+        android:layout_alignParentRight="true"/>
+
+
 </RelativeLayout>

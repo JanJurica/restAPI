@@ -54,6 +54,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_below="@+id/radarImage"/>
                     <ImageView
+                        android:background="@drawable/ic_baseline_radar_24"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/radarImage"
@@ -100,6 +101,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_below="@+id/mapImage" />
                     <ImageView
+                        android:background="@drawable/ic_baseline_map_24"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/mapImage"
@@ -146,6 +148,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_below="@+id/wallpaperImage" />
                     <ImageView
+                        android:background="@drawable/ic_baseline_wallpaper_24"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/wallpaperImage"
@@ -192,6 +195,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_below="@+id/aboutImage" />
                     <ImageView
+                        android:background="@drawable/ic_baseline_info_24"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/aboutImage"

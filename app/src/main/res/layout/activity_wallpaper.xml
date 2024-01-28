@@ -12,9 +12,29 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:title="Radar"
+        app:title="Wallpapers"
         app:titleTextColor="@android:color/white"
         app:navigationIcon="?android:attr/homeAsUpIndicator"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="40dp"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/baseline_add_24"
+        app:tint = "@color/white"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:paddingStart="0dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="15dp"/>
+
 
 </RelativeLayout>

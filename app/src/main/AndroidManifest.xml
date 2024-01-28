@@ -2,11 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
-
-
 
     <application
         android:allowBackup="true"
@@ -34,33 +31,32 @@
         </activity>
         <activity
             android:name=".AboutActivity"
-            android:parentActivityName=".MenuActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".MenuActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-
         </activity>
         <activity
             android:name=".WallpaperActivity"
-            android:parentActivityName=".MenuActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".MenuActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".MapActivity"
-            android:parentActivityName=".MenuActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".MenuActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".RadarActivity"
-            android:parentActivityName=".MenuActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".MenuActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="MenuActivity" />

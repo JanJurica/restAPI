@@ -26,7 +26,7 @@
         android:id="@+id/textViewDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is Flight Radar mobile application which can show flight data about all flight around world. Application also shows wallpapers of planes, map and little information about you own mobile phone."
+        android:text="This is Weather mobile application which can show weather in anyone city on world. Application also shows wallpapers of planes, map and little information about you own mobile phone."
         android:textSize="18sp"
         android:layout_below="@id/textViewTitle"
         android:layout_marginTop="8dp"
