@@ -69,7 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:title="Flight Radar"
+        app:title="About"
         app:titleTextColor="@android:color/white"
         app:navigationIcon="?android:attr/homeAsUpIndicator"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>

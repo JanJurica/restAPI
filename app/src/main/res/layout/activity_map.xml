@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:title="Radar"
+        app:title="Map"
         app:titleTextColor="@android:color/white"
         app:navigationIcon="?android:attr/homeAsUpIndicator"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
